@@ -55,6 +55,9 @@
   % rvm use 2.6.3
   % rvm use 2.6.3@rails-6.0.3 --create
   % gem install rails -v 6.0.3.4
+  % ruby -v
+  % rails -v
+
 
 ```
 ## [Homebrew](https://brew.sh/)
