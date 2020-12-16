@@ -83,4 +83,32 @@ In source code add
 ```
 binding.pry
 ```
+## Challenge
+- Install [mongodb](https://docs.mongodb.com/manual/installation/)
+- under ruby 2.6.3@rails-6.0.3
+- % rails g project -BOTJ
+- % cd project
+- add "gem 'jinda' " to Gemfile
+
+```
+  % bundle install
+
+```  
+- follow message eg:
+
+```
+  % rails g jinda:install
+  % bundle install
+  % rails g jinda:config
+  % rake jinda:seed #to add admin user name admin / password: secret or login with google
+
+```
+- localhost:3000
+- You should get menu of a generator program, in order to use it properly you need to install [freemind](https://sourceforge.net/projects/freemind/)
+- Once you done. Then try add another gem "gem jinda_adminlte" and follow instruction to change the them and use bootstrap3 by itself
+- This is advance rails using Rails Engine concept
+- Discussion: Please see why you can call article without routes! in this App.
+
+
+
 by Prateep Kul (prkul@paypal.com)
