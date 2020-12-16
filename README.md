@@ -13,8 +13,10 @@
 
 ```
   % rails new project
-  % rails g scaffold books title:string author:string publication_year:integer # To install books app.
-  % rails destroy scaffold books #To uninstall books
+  % rails g controller Articles new # generate controller with view file new
+  % rails g model Article title:string text:text
+  % rails g scaffold Article title:string text:text # To install books app.
+  % rails destroy scaffold Article #To uninstall Article
   % rails db:migrate 
 
 
