@@ -116,7 +116,7 @@ binding.pry
 - Once you done. Then try add another gem "gem jinda_adminlte" and follow instruction to change the them and use bootstrap3 by itself
 - This is advance rails using Rails Engine concept
 ###Discussion: 
-Please see why you can call article without routes! in this App.
+Please see why you can call article without routes! in [this App.](https://github.paypal.com/prkul/rails-101)
 
 
 
