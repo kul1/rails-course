@@ -86,8 +86,16 @@ binding.pry
 ## Challenge
 - Install [mongodb](https://docs.mongodb.com/manual/installation/)
 - under ruby 2.6.3@rails-6.0.3
-- % rails g project -BOTJ
-- % cd project
+
+```
+  % rails g project -BOTJ
+```
+- BOTJ mean option will not include: ActiveRecord for mongodb, Test, and Turbolink
+```
+
+  % cd project
+```
+
 - add "gem 'jinda' " to Gemfile
 
 ```
@@ -107,7 +115,8 @@ binding.pry
 - You should get menu of a generator program, in order to use it properly you need to install [freemind](https://sourceforge.net/projects/freemind/)
 - Once you done. Then try add another gem "gem jinda_adminlte" and follow instruction to change the them and use bootstrap3 by itself
 - This is advance rails using Rails Engine concept
-- Discussion: Please see why you can call article without routes! in this App.
+###Discussion: 
+Please see why you can call article without routes! in this App.
 
 
 
