@@ -58,7 +58,10 @@
   % ruby -v
   % rails -v
 
-
+```
+  - To use ruby 2.6.3 and rails 6.0.3 run
+```
+  % rvm use 2.6.3@rails-6.0.3
 ```
 ## [Homebrew](https://brew.sh/)
 
